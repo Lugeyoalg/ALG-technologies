@@ -1,0 +1,180 @@
+body{
+	font-family: 'open-sans', sans-serif;
+	font-size: 17px;
+	line-height: 1.5em;
+	margin:0;
+	padding: 0;
+}
+
+
+
+.img{
+	width: 100%;
+}
+
+.container{
+	margin: auto;
+}
+
+/*COMMON CLASSES*/
+.primary-text{
+	color: #05537a;
+}
+.primary-background{
+	color: #05537a;
+}
+
+#main-header{
+	border-bottom: 1px solid #05537a;
+}
+
+#page .primary-text{
+
+color: #05537a;
+}
+
+
+#navbar{
+	text-transform: uppercase;
+}
+
+#navbar li{
+	display: inline;
+	padding-right: 20px;
+	list-style: none;
+}
+
+#navbar a{
+	text-decoration: none;
+	color: #888;
+
+}
+
+#navbar li.current a, #navbar a:hover{
+      color: #1a3f52;
+      border-bottom: 3px solid #05537a;
+      padding-bottom: 3px;
+      
+
+}
+
+/*SHOWCASE*/
+#showcase{
+	background: url(../images/675.jpg);
+	height: 550px;
+	border-bottom: 1px solid #05537a;
+	margin-bottom: 30px;
+
+}
+
+#showcase .row{
+	height: 600px;
+}
+
+#showcase h1{
+	font-size: 50px;
+	margin:0;
+	padding-bottom: 20px;
+}
+
+#showcase p{
+	color: #ccc;
+	margin: 0;
+}
+
+#showcase .showcase-content{
+	background: #333;
+	color: #fff;
+	border-radius: 90px;
+	padding: 40px;
+	opacity: 0.5;
+}
+
+@media(max-width: 800px){
+#showcase h1{
+	font-size: 30px;
+
+}
+}
+
+@media(max-width: 500px){
+#showcase .showcase-content{
+	padding: 40px 10px;
+
+}
+}
+
+/*FEATURES*/
+#features h2{
+	font-size: 35px;
+	margin:0;
+	padding-bottom: 10px;
+}
+
+#features p{
+	color: #888;
+	margin: 0;
+	margin-bottom: 40px; 
+}
+
+#features .fa{
+	font-size: 60px;
+	color: #05537a;
+}
+
+/*INFO*/
+#info{
+	background:#05537a ;
+    color: #fff;
+}
+
+#info h2{
+	font-size: 35px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#info ul{
+	list-style: none;
+	padding: 0;
+}
+
+#info li{
+	line-height: 2em;
+	font-size: 20px;
+}
+
+/*COMPANY*/
+#company{
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+
+}
+
+#company h4{
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+#company ul{
+	padding: 0;
+	list-style: none;
+	line-height: 2em;
+}
+
+#company input[type="text"]{
+	padding: #222;
+	color: #fff;
+	padding-bottom: 10px;
+	border: 0;
+}
+
+/*FOOTER*/
+#main-footer{
+	background: #05537a;
+	color: #fff;
+}
+
+/*SLIDES BACKGROUND algg.html*/
+
